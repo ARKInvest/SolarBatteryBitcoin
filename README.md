@@ -1,8 +1,8 @@
 # SolarBatteryBitcoin
 This file “Solar_Battery_Bitcoin_Open_Source” includes our proof-of-concept model for a solar, battery, and Bitcoin mining system that provides energy to the grid. Please read this blog [https://medium.com/@wintonARK/fc91c5aa9be0?source=friends_link&sk=82dbcae32c8c6868bce7d24644ed6cee] for a more detailed discussion of our assessment before diving into the model.  
  
-The model uses a simulated year of sunlight from NREL’s PVWatts tool and pairs it with historical electricity prices and electricity demand for the same location. In this case, Austin, Texas. It also uses historical bitcoin prices, miner revenue, and network hash rates for the year 2020. Miner hardware specifications are an average blend of the Antminer S9, S17, and S19.  
-  
+The model uses a simulated year of sunlight from NREL’s PVWatts tool and pairs it with historical electricity prices and electricity demand for the same location. In this case, Austin, Texas. It also uses historical bitcoin prices, miner revenue, and network hash rates for the year 2020. Miner hardware specifications are an average blend of the Antminer S9, S17, and S19.
+
 The logic of the system is such that it is optimized to prioritize meeting grid demand. That is, the sun's energy will not be used to mine bitcoin unless the demand from the grid is first met. Once grid demand is met, the model assesses whether it is more profitable to store energy in the battery or mine bitcoin based on trailing profitability levels. The decision to charge the battery or mine bitcoin is nuanced and can best be understood by opening the model. Ultimately the state of charge of the battery also plays a role in determining the flow of energy.  
  
 ARK believes the best way to push this modeling exercise forward is to incorporate pricing data from varying geographies and to extend it over a longer timeframe.  
