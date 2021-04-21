@@ -1,5 +1,5 @@
 # SolarBatteryBitcoin
-This file “Solar_Battery_Bitcoin_Open_Source” includes our proof-of-concept model for a solar, battery, and Bitcoin mining system that provides energy to the grid. 
+This file “Solar_Battery_Bitcoin_Open_Source” includes ARK Invest's proof-of-concept model for a solar, battery, and Bitcoin mining system that provides energy to the grid. 
 
 Before you do anything, please read this blog [https://medium.com/@wintonARK/fc91c5aa9be0?source=friends_link&sk=82dbcae32c8c6868bce7d24644ed6cee] for a more detailed discussion of our assessment.  
  
