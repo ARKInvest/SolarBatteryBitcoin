@@ -1,5 +1,7 @@
 # SolarBatteryBitcoin
-This file “Solar_Battery_Bitcoin_Open_Source” includes our proof-of-concept model for a solar, battery, and Bitcoin mining system that provides energy to the grid. Please read this blog [https://medium.com/@wintonARK/fc91c5aa9be0?source=friends_link&sk=82dbcae32c8c6868bce7d24644ed6cee] for a more detailed discussion of our assessment before diving into the model.  
+This file “Solar_Battery_Bitcoin_Open_Source” includes our proof-of-concept model for a solar, battery, and Bitcoin mining system that provides energy to the grid. 
+
+Before you do anything, please read this blog [https://medium.com/@wintonARK/fc91c5aa9be0?source=friends_link&sk=82dbcae32c8c6868bce7d24644ed6cee] for a more detailed discussion of our assessment before diving into the model.  
  
 The model uses a simulated year of sunlight from NREL’s PVWatts tool and pairs it with historical electricity prices and electricity demand for the same location. In this case, Austin, Texas. It also uses historical bitcoin prices, miner revenue, and network hash rates for the year 2020. Miner hardware specifications are an average blend of the Antminer S9, S17, and S19.
 
