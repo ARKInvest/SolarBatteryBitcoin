@@ -13,19 +13,19 @@ Key Charts:
 
 The graph below illustrates the hypothetical impact that bitcoin mining could have on the adoption of solar systems (solar + batteries). Based on a constant cost of electricity, it traces what percentage of power solar could provide to the grid. The y-axis is the power of the solar installation, the x-axis is battery capacity. The size of each circle is proportionate to the size of the bitcoin mining operation. At each point, the solar system provides a different percentage of the grid’s needs. As bitcoin mining scales, the solar system increases in size and provides a higher percentage of the grid’s needs. Increasing bitcoin mining capacity allows the energy provider to “overbuild” solar without wasting energy. In the bottom left of the chart, in the absence of Bitcoin mining, renewables can satisfy only 40% of the grid’s needs. In the top right of the chart, including Bitcoin mining, solar, batteries, and Bitcoin mining can satisfy 99% of the grid’s demand.
 
-![](Charts/Figure1.png)
+![](Charts/Figure_1.png)
 
 Below, we extend upon figure 1 to develop two curves. As before, y-axis is the power of the solar installation, the x-axis is the capacity of the battery installation1 and the size of each point is the size of the bitcoin miner. At each point the system provides a different percentage of the grid’s needs. As the system increases in size the points move up and to the right, and the system provides a higher percentage of the grid’s needs. In the upper curve, system profitability is held constant; the larger bitcoin mining installation allows the system to be effectively over-powered without wasting excess energy. In the lower curve, profitability is optimized without using bitcoin miners at a given target dispatch level. At 90% dispatch there is a >200 basis points in annual return-on-capital difference between a system that can offload power to a bitcoin miner and one that simply relies on solar + battery.
 
-![](Charts/Figure2.png)
+![](Charts/Figure_2.png)
 
 In the figure below we show the percentage of the capital expenditure comprised by a 40% dispatch system and by an equivalent profit system which includes bitcoin mining to increase its ability to grid provision up to 90%.
 
-![](Charts/Figure3.png)
+![](Charts/Figure_3.png)
 
 The model can also be used to dimension the trade-off between solar and battery systems exclusive of a bitcoin miner. Each curve below represents different combinations of solar + battery sizes that can be used to achieve a similar level of electricity dispatch. The “elbow” in each curve (the largest datapoint) is the point of maximum profitability for a given level of dispatch, exclusive of an attached bitcoin mining unit.
 
-![](Charts/Figure4.png)
+![](Charts/Figure_4.png)
 
 A description of each worksheet in the file: 
  
