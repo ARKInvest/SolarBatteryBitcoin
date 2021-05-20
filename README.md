@@ -7,7 +7,18 @@ The model uses a simulated year of sunlight from NREL’s PVWatts tool a
 
 The logic of the model is optimized to prioritize meeting grid demand. That is, the sun's energy will not be used to mine bitcoin unless the demand from the grid is first met. Once grid demand is met, the model assesses whether it is more profitable to store energy in the battery or mine bitcoin based on trailing profitability levels. The decision to charge the battery or mine bitcoin is nuanced and can best be understood by opening the model. Ultimately the state of charge of the battery also plays a role in determining the flow of energy.  
  
-ARK believes the best way to push this modeling exercise forward is to incorporate pricing data from varying geographies and to extend it over a longer timeframe.  
+ARK believes the best way to push this modeling exercise forward is to incorporate pricing data from varying geographies and to extend it over a longer timeframe.
+
+Update May 20, 2021:
+
+Uploaded Solar_Battery_Bitcoin_Open_Source V1.1
+
+Expanded the Bitcoin metrics data set to include data from 2017 through the end of 2020. Changing the year on the “Inputs and Output” worksheet changes the Bitcoin miner hardware inputs and the Bitcoin hashrate and miner revenue used in the model.
+
+The incremental modeling demonstrates that the economics for a solar, battery, and Bitcoin mining system remain robust through both Bitcoin bull and bear markets.
+
+The “Miner Hardware Assumption” worksheet includes the specifications for a mix of Bitcoin mining hardware over a specific year.
+
 
 Key Charts:
 
@@ -37,7 +48,9 @@ A description of each worksheet in the file:
  
 “Model” worksheet is where the math happens. Rows one and two contain notes describing each column. 
  
-“PVWatt simulated Dispatch” worksheet contains the inputs and outputs from NREL’s PVWatts simulation. This includes the amount of sun per hour and output of a specific system.  
+“PVWatt simulated Dispatch” worksheet contains the inputs and outputs from NREL’s PVWatts simulation. This includes the amount of sun per hour and output of a specific system.
+
+“Miner Hardware Assumption” worksheet includes the specifications for a mix of Bitcoin mining hardware over a specific year.
  
 “hashrate + miner revenue” worksheet contains hourly bitcoin network hashrate and mining revenue for 2020. 
  
