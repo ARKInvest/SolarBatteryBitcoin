@@ -11,7 +11,7 @@ ARK believes the best way to push this modeling exercise forward is to incorpora
 
 Update May 21, 2021:
 
-Uploaded Solar_Battery_Bitcoin_Open_Source V1.12
+Uploaded Solar_Battery_Bitcoin_Open_Source V1.11
 
 Fixes miner error in column AW of the model (miner variable cost); previously the model was applying the full variable cost against the mining equipment in hours where the mining equipment was being partially utilized (no variable cost was being applied when mining equipment was off). The calc now charges variable costs proportional to the mining utilization rate.
 
