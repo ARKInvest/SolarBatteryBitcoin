@@ -9,7 +9,7 @@ The logic of the model is optimized to prioritize meeting grid demand. That is
  
 ARK believes the best way to push this modeling exercise forward is to incorporate pricing data from varying geographies and to extend it over a longer timeframe.
 
-Update May 21, 2021:
+Update May 24, 2021:
 
 Uploaded Solar_Battery_Bitcoin_Open_Source V1.11
 
