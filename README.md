@@ -9,6 +9,16 @@ The logic of the model is optimized to prioritize meeting grid demand. That is
  
 ARK believes the best way to push this modeling exercise forward is to incorporate pricing data from varying geographies and to extend it over a longer timeframe.
 
+Update May 21, 2021:
+
+Uploaded Solar_Battery_Bitcoin_Open_Source V1.12
+
+Fixes miner error in column AW of the model (miner variable cost); previously the model was applying the full variable cost against the mining equipment in hours where the mining equipment was being partially utilized (no variable cost was being applied when mining equipment was off). The calc now charges variable costs proportional to the mining utilization rate.
+
+Eliminated unrelated graphic on the resources page.
+
+Deleted Solar_Battery_Bitcoin_Open_Source V1.1
+
 Update May 20, 2021:
 
 Uploaded Solar_Battery_Bitcoin_Open_Source V1.1
